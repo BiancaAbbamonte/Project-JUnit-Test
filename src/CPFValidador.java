@@ -4,8 +4,7 @@ import org.junit.Test;
 
 public class CPFValidador {
 
-	// teste pra verificar se o cpf È v·lido (usando o cpf v·lido que estava na
-	// explicaÁ„o)
+	// teste pra verificar se o cpf √© v√°lido (usando o cpf v√°lido que estava na explica√ß√£o)
 	@Test
 	public void CPFTeste() {
 		String cpf = "11144477735";
@@ -16,8 +15,7 @@ public class CPFValidador {
 
 	}
 
-	// teste pra verificar se o cpf È v·lido (usando o cpf inv·lido que estava na
-	// explicaÁ„o)
+	// teste pra verificar se o cpf √© v√°lido (usando o cpf inv√°lido que estava na explica√ß√£o)
 	@Test
 	public void CPFTeste1() {
 		String cpf = "11144477701";
@@ -28,8 +26,7 @@ public class CPFValidador {
 
 	}
 
-	// teste pra verificar se o cpf È v·lido (usando um outro cpf v·lido pego no
-	// link: https://www.4devs.com.br/gerador_de_cpf)
+	// teste pra verificar se o cpf √© v√°lido (usando um outro cpf v√°lido pego no link: https://www.4devs.com.br/gerador_de_cpf)
 	@Test
 	public void CPFTeste2() {
 		String cpf = "27531218852";
@@ -40,9 +37,9 @@ public class CPFValidador {
 
 	}
 
-	// teste pra verificar se o cpf È v·lido (usando um outro cpf v·lido pego no
+	// teste pra verificar se o cpf √© v√°lido (usando um outro cpf v√°lido pego no
 	// link: https://www.4devs.com.br/gerador_de_cpf)
-	// O cpf v·lido seria esse: 72895887209
+	// O cpf v√°lido seria esse: 72895887209
 	@Test
 	public void CPFTeste3() {
 		String cpf = "72895887234";
@@ -53,7 +50,7 @@ public class CPFValidador {
 
 	}
 
-	// teste pra verificar se os caracteres especiais est„o sendo removidos
+	// teste pra verificar se os caracteres especiais est√£o sendo removidos
 	@Test
 	public void CaracterTeste() {
 		String cpf = "632.820.720-40";
@@ -64,7 +61,7 @@ public class CPFValidador {
 
 	}
 
-	// segundo teste pra verificar se os caracteres especiais est„o sendo removidos
+	// segundo teste pra verificar se os caracteres especiais est√£o sendo removidos
 	@Test
 	public void CaracterTeste2() {
 		String cpf = "315.456.436-52";
@@ -75,7 +72,7 @@ public class CPFValidador {
 
 	}
 
-	// extra: teste pra verificar se os numeros s„o repetidos
+	// extra: teste pra verificar se os numeros s√£o repetidos
 	@Test
 	public void CPFTesteNumRepetido() {
 		String cpf = "000000000";
@@ -86,7 +83,7 @@ public class CPFValidador {
 
 	}
 	
-	// extra: teste pra verificar se os numeros s„o repetidos
+	// extra: teste pra verificar se os numeros s√£o repetidos
 		@Test
 		public void CPFTesteNumeroAMais() {
 			String cpf = "1234567891234";
